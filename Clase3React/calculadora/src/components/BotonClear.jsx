@@ -3,9 +3,8 @@ import '../styles/botonclear.css'
 
 const BotonClear = (props) => {
   return (
-    <div 
-      className='boton-clear'
-      onClick={() => props.manejarClear()}  
+    <div
+        className='boton-clear'
     >
       {props.children}
     </div>
